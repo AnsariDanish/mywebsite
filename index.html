@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish | Home </title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <label  class="logo">LOGO</label>
+        <ul class="menu-list">
+            <div class="icon cancel-btn "><i class="fas fa-times"></i></div>
+            <li><a href="#">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <!-- <li><a href="#footer">SERVICE</a></li> -->
+            <li><a href="contact.html">CONTACT</a></li>
+            <!-- <li><a href="#">TEAM</a></li> -->
+        </ul>
+        <div class="icon menu-btn"><i class="fas fa-bars"></i></div>
+    </nav>
+    <div class="banner">
+        <div class="welcome">Welcome to my website</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="myimage"></div>
+        <div class="myabout">
+            <div class="intro">
+                <h1>Hello, I am Danish</h1>
+                <br>
+                <p>I am pursuing graduation degree B.Sc from J.N.C.U (Jannayak Chandrashakher University), Ballia
+                    <br>
+                    I am a Web-devloper, Video editer, and Digital Marketer.
+                </p>
+                <br>
+                <button class="readbtn"><a href="about.html">Read more..</a></button>
+            </div>
+        </div>
+    </div>
+   <br>
+   <br>
+   <br>
+   <div class="myex">My Experties</div>
+   <br>
+   <div class="experties">
+       <div class="devloper">
+             <div class="subdevloper">
+                <h1 class="weblogo">{};</h1>
+                <!-- <br> -->
+                <h2>Web Devloper</h2>
+                <br>
+                <p>The best web design and devlopment features at the best price. We have a team of skilled Web Desiginer and Devloper to manage your website as a business asset.</p>
+             </div>
+        </div>
+       <div class="dm">
+             <div class="subdm">
+                <i class="fas fa-tv"></i>
+                <br>
+                <h2>Digital Marketer</h2>
+                <br>
+                <p>Digital Marketing refers to advertising delivered through digital channels such as search engines,websites,social media,email and mobile apps <br>Digital is at the core of everthing in Marketing today</p>
+             </div>
+       </div>
+       <div class="sma">
+            <div class="subsma">
+                <i class="fas fa-headset"></i>
+                <br>
+                <h2>Social Media Advertiser</h2>
+                <br>
+                <p>Social Media Marketing is the use of social media platform to connect with your audiences to build your brand, increase sales, and drive website traffic </p>
+            </div>
+       </div>
+   </div>
+    <br>
+    <br>
+    <footer class="footer" id="footer">
+          <div class="subfooter">
+              <h2>Danish</h2>
+              <ul class="social">
+                  <li><a href="https://www.facebook.com/profile.php?id=100029291464809" target="blank"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="https://www.instagram.com/i_am_danishansari/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://twitter.com/tdanishansari?s=09" target="blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/danish-ansari-090218214"  target="blank"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="https://github.com/AnsariDanish" target="blank"><i class="fab fa-github"></i></a></li>
+              </ul>
+              <div class="footer-bottom">
+                  copyright &copy;2021 | All right reserved
+              </div>
+          </div>
+    </footer>
+
+
+
+    <script>
+                     // navbar javascript
+        const menu = document.querySelector(".menu-list");
+       const menuBtn = document.querySelector(".menu-btn");
+       const cancelBtn = document.querySelector(".cancel-btn");
+
+       menuBtn.onclick = ()=>{
+           menu.classList.add("active");
+           menuBtn.classList.add("hide");
+       }
+       cancelBtn.onclick = ()=>{
+           menu.classList.remove("active");
+           menuBtn.classList.remove("hide");
+       }
+      
+   </script>
+
+</body>
+</html>
